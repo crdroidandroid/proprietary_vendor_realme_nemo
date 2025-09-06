@@ -109,13 +109,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/odm/etc/audio/aurisys_config/aurisys_config.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config/aurisys_config.xml \
     vendor/realme/nemo/proprietary/odm/etc/audio/aurisys_config_hifi3/aurisys_config_hifi3.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/aurisys_config_hifi3/aurisys_config_hifi3.xml \
     vendor/realme/nemo/proprietary/odm/etc/audio/awinic/AW_DSP.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/awinic/AW_DSP.bin \
-    vendor/realme/nemo/proprietary/odm/etc/audio/file112.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/file112.wav \
     vendor/realme/nemo/proprietary/odm/etc/audio/oplus_audio_features.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/oplus_audio_features.xml \
     vendor/realme/nemo/proprietary/odm/etc/audio/sixth/sixth_param.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param.txt \
     vendor/realme/nemo/proprietary/odm/etc/audio/sixth/sixth_param_app3.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param_app3.txt \
     vendor/realme/nemo/proprietary/odm/etc/audio/sixth/sixth_param_phonecall.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param_phonecall.txt \
     vendor/realme/nemo/proprietary/odm/etc/audio/sixth/sixth_param_voip.txt:$(TARGET_COPY_OUT_ODM)/etc/audio/sixth/sixth_param_voip.txt \
-    vendor/realme/nemo/proprietary/odm/etc/audio/spk.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/spk.wav \
     vendor/realme/nemo/proprietary/odm/etc/audio/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/common/mixer_paths.xml \
     vendor/realme/nemo/proprietary/odm/etc/audio/test_path/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/test_path/mixer_paths.xml \
     vendor/realme/nemo/proprietary/odm/etc/init/init.pn8x.nfc.rc:$(TARGET_COPY_OUT_ODM)/etc/init/init.pn8x.nfc.rc \
@@ -316,7 +314,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/realme/nemo/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/realme/nemo/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
-    vendor/realme/nemo/proprietary/vendor/etc/file112.wav:$(TARGET_COPY_OUT_VENDOR)/etc/file112.wav \
     vendor/realme/nemo/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/realme/nemo/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/realme/nemo/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -424,7 +421,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/nemo/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/realme/nemo/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
-    vendor/realme/nemo/proprietary/vendor/etc/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/spk.wav \
     vendor/realme/nemo/proprietary/vendor/etc/spn-conf-op09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/spn-conf-op09.xml \
     vendor/realme/nemo/proprietary/vendor/etc/test_path/common/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/test_path/common/mixer_paths.xml \
     vendor/realme/nemo/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
