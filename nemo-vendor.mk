@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/odm/firmware/aw87359/aw87359_dspk.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87359/aw87359_dspk.bin \
     vendor/realme/nemo/proprietary/odm/firmware/aw87359/aw87359_dspk_ftm.bin:$(TARGET_COPY_OUT_ODM)/firmware/aw87359/aw87359_dspk_ftm.bin \
     vendor/realme/nemo/proprietary/odm/firmware/fastchg/19661/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/19661/oplus_vooc_fw.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/fastchg/20682/oplus_vooc_fw.bin:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/20682/oplus_vooc_fw.bin \
     vendor/realme/nemo/proprietary/odm/firmware/tp/19661/FW_NT36672C_NF_JDI.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/FW_NT36672C_NF_JDI.bin \
     vendor/realme/nemo/proprietary/odm/firmware/tp/19661/FW_NT36672C_NF_JDI_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/FW_NT36672C_NF_JDI_FAE.bin \
     vendor/realme/nemo/proprietary/odm/firmware/tp/19661/FW_NT36672C_NF_JDI_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/FW_NT36672C_NF_JDI_TEST.bin \
@@ -143,21 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/odm/firmware/tp/19661/FW_NT36672C_NF_TIANMA_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/FW_NT36672C_NF_TIANMA_TEST.bin \
     vendor/realme/nemo/proprietary/odm/firmware/tp/19661/LIMIT_NT36672C_NF_JDI.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/LIMIT_NT36672C_NF_JDI.img \
     vendor/realme/nemo/proprietary/odm/firmware/tp/19661/LIMIT_NT36672C_NF_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/19661/LIMIT_NT36672C_NF_TIANMA.img \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_GT9886_SAMSUNG.img \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_GT9886_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_GT9886_SAMSUNG_FAE.img \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_BOE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_BOE.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_BOE_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_BOE_FAE.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_BOE_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_BOE_TEST.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_JDI.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_JDI.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_JDI_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_JDI_FAE.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_JDI_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_JDI_TEST.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_TIANMA.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_TIANMA.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_TIANMA_FAE.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_TIANMA_FAE.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/FW_NT36672C_NF_TIANMA_TEST.bin:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/FW_NT36672C_NF_TIANMA_TEST.bin \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/LIMIT_GT9886_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_GT9886_SAMSUNG.img \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_BOE.img \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_JDI.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_JDI.img \
-    vendor/realme/nemo/proprietary/odm/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20682/LIMIT_NT36672C_NF_TIANMA.img \
     vendor/realme/nemo/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.drbin \
     vendor/realme/nemo/proprietary/odm/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030b0000000000000000000000000000.tlbin \
     vendor/realme/nemo/proprietary/odm/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_ODM)/vendor/app/mcRegistry/030c0000000000000000000000000000.drbin \
@@ -461,11 +445,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin \
     vendor/realme/nemo/proprietary/vendor/firmware/em_filter_1_ulwctg_n.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/em_filter_1_ulwctg_n.bin \
     vendor/realme/nemo/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
-    vendor/realme/nemo/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
-    vendor/realme/nemo/proprietary/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v96.bin \
-    vendor/realme/nemo/proprietary/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_cfg_6785v99.bin \
-    vendor/realme/nemo/proprietary/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785a4.bin \
-    vendor/realme/nemo/proprietary/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gt9886_firmware_6785ae.bin \
     vendor/realme/nemo/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
     vendor/realme/nemo/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
     vendor/realme/nemo/proprietary/vendor/firmware/soc1_0_patch_mcu_2a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_patch_mcu_2a_1_hdr.bin \
