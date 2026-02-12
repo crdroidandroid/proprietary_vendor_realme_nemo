@@ -269,7 +269,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/md_monitor.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-    vendor/realme/nemo/proprietary/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
     vendor/realme/nemo/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
@@ -318,7 +317,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/realme/nemo/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
     vendor/realme/nemo/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
-    vendor/realme/nemo/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/realme/nemo/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/realme/nemo/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/realme/nemo/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
@@ -447,7 +445,6 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     VP9SecureVdecCA \
     audio.primary.mt6785 \
-    audio.r_submix.mt6785 \
     audio.usb.mt6785 \
     sound_trigger.primary.mt6785 \
     vendor.mediatek.hardware.mtkcodecservice@1.1-impl \
@@ -1134,7 +1131,7 @@ PRODUCT_PACKAGES += \
     libtlcWidevineModularDrm \
     libudf \
     libutils-v30 \
-    libwifi-hal-mtk \
+    libwapi \
     libwifitest \
     libwvhidl \
     libwvdrmengine \
@@ -1274,7 +1271,6 @@ PRODUCT_PACKAGES += \
     md_monitor_ctrl \
     mnld \
     mtk_agpsd \
-    muxreport \
     netdagent \
     netdc \
     nvram_daemon \

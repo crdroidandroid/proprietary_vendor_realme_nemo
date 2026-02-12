@@ -4306,36 +4306,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "audio.r_submix.mt6785",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/audio.r_submix.mt6785.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libmedia_helper",
-                "libutils",
-                "libnbaio_mono",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "audio.usb.mt6785",
     owner: "realme",
     strip: {
@@ -23148,7 +23118,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libwifi-hal-mtk",
+    name: "libwapi",
     owner: "realme",
     strip: {
         none: true,
@@ -23156,14 +23126,12 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libwifi-hal-mtk.so",
+                "proprietary/vendor/lib64/libwapi.so",
             ],
             shared_libs: [
-                "libbase",
-                "libcutils",
+                "libkeystore-wifi-hidl",
+                "libcrypto",
                 "liblog",
-                "libnl",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -27193,32 +27161,6 @@ cc_prebuilt_binary {
         },
     },
     compile_multilib: "32",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "muxreport",
-    owner: "realme",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/muxreport",
-            ],
-            shared_libs: [
-                "libmtkrillog",
-                "libmtkproperty",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
     strip: {
         none: true,
     },
