@@ -1124,7 +1124,6 @@ PRODUCT_PACKAGES += \
     libtlcWidevineModularDrm \
     libudf \
     libutils-v30 \
-    libwapi \
     libwifitest \
     libwvhidl \
     libwvdrmengine \
