@@ -302,7 +302,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/nemo/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/realme/nemo/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/realme/nemo/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/realme/nemo/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/nemo/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     vendor/realme/nemo/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
     vendor/realme/nemo/proprietary/vendor/etc/media_codecs_mediatek_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_video.xml \
